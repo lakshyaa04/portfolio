@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+
+
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">SNEHA LASKHYA</div>
+
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#roles">Roles Of Responsibilities</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+    </nav>
+
+
+
+   <nav id="hamburger-nav">
+
+      <div class="logo">SNEHA LAKSHYA</div>
+
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#achievements" onclick="toggleMenu()">Achievements</a></li>
+          <li><a href="#roles" onclick="toggleMenu()">Roles Of Responsibilities</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+
+      </div>
+
+    </nav>
+
+
+
+
+    <section id="profile">
+
+      <div class="section__pic-container">
+        <img src="./assets/prof-pic.jpeg" alt="Sneha's profile picture" />
+      </div>
+
+    <div class="section__text">
+
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sneha Lakshya</h1>
+        <p class="section__text__p2">An Aspiring Software Developer</p>
+
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/sneha-resume.pdf')"
+          >
+            Download CV
+          </button>
+
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+
+        </div>
+
+
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sneha-lakshya-798b561b0/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/lakshyaa04'"
+          />
+        </div>
+      </div>
+    </section>
+
+   
+
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <br>
+
+      <div class="section-container">
+
+        <div class="section__pic-container">
+          <img
+            src="./assets/abt-pic.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+       
+          
+        <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+
+              <h3>Education</h3>
+              <p>B.Tech - CSE(AIML)  8.77 CGPA</p>
+              <p>Intermediate - MPC  95.2 %</p>
+              <p>SSC                 9.7 CGPA</p>
+              <br>
+              <h5>I'm Sneha Lakshya, a final year under-graduate student from CVR college of Engineering.
+                I am Goal-driven and focused, my approach is all about learning & exploring to excel innovative technology application,
+                 which enables me to grow and contribute towards my goals.
+                I am a multi-potentialite, with good Analytical, logical and decent Coding skills who can establish and maintain excellent
+                 communication and relationship at a workplace. 
+                With a commitment to continuous learning, I'm always excited to explore new horizons.
+                Apart from this I am a passionate writer, an orator, an amateur classical dancer - artist - singer 
+                I am bold & fierce and someone who believes that "Zeal to achieve - is the key to Success".</h5>
+            </div>
+        
+        </div>
+      </div>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+
+    </section>
+
+
+
+
+
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+
+        <div class="experience-details-container">
+          <div class="about-containers">
+
+            <div class="details-container">
+
+
+              <h3 class="experience-sub-title">Technical Skills</h3>
+              <div class="article-container">
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Java</h3>
+                    
+                  </div>
+                </article>
+
+
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Python</h3>
+                   
+                    </div>
+                  </article>
+
+
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>HTML</h3>
+                     
+                    </div>
+                  </article>
+
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                   
+                  </div>
+                </article>
+
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>React</h3>
+        
+                  </div>
+                </article>
+
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Git</h3>
+          
+                    </div>
+                  </article>
+
+
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>SQL</h3>
+          
+                    </div>
+                  </article>
+
+
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Image Processing</h3>
+                 
+                  </div>
+                </article>
+
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Machine Learning</h3>
+                   
+                    </div>
+                  </article>
+
+
+
+              </div>
+            </div>
+
+
+
+
+
+            <div class="details-container">
+              <h3 class="experience-sub-title">Soft Skills</h3>
+              <div class="article-container">
+
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Communication & Wordsmith</h3>
+                  </div>
+                </article>
+
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Collaboration & Negotiation</h3>
+                  </div>
+                </article>
+
+
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Content Writing</h3>
+                    </div>
+                  </article>
+
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Logical & Analytical thinking</h3>
+                  </div>
+                </article>
+
+
+                <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Adaptability & Decision Making</h3>
+                    </div>
+                  </article>
+
+                  
+                
+
+
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Leadership & Management</h3>
+                  </div>
+                </article>
+
+
+                  
+  
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+
+
+
+
+
+
+
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+
+        <div class="experience-details-container">
+
+          <div class="about-containers">
+            <div class="details-container color-container">
+
+              <div class="article-container">
+
+
+
+                <img
+                  src="./assets/proj1.avif"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h6 class="experience-sub-title project-title">E-COMMERCE WEBSITE  (using React)</h6>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/lakshyaa04/ecommerce-website'"
+                >
+                  Github
+                </button>
+
+              </div>
+            </div>
+               
+                
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/money11.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h3 class="experience-sub-title project-title">Money Laundering Detection</h3>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/lakshyaa04/Money-Laundering-Detection/blob/main/mini_project2.py'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/airbnb-old.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">AIR-BNB (static clone website)</h2>
+         
+            
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/lakshyaa04/Air-bnb'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+
+
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/image.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h5 class="experience-sub-title project-title">Image Recognition - User Authentication</h5>
+            
+            
+            
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/lakshyaa04/Student-Authentication'"
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#achievements'"
+    />
+    </section>
+
+
+
+
+
+
+
+
+    
+    <section id="achievements">
+        <p class="section__text__p1">Have a look at my</p>
+        <h1 class="title">Achievements</h1>
+
+        <div class="section-container">
+          <div class="section__pic-container">
+
+            <img
+              src="./assets/ACHEIVEMENTS.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+         
+            
+          <div class="details-container">
+            
+            
+                <h3>
+                  
+• Published book at the age of 19
+Received Emily Dickinson Award in Poetry Genre - 2022<br><br>
+
+• Best Orator mention - Youth Parliament- 2022<br><br>
+
+• Appeared in a couple of local news channels, also was a part of chandrayaan-3 special discussion<br><br>
+
+• Best Literary Event Organizer mention<br><br>
+
+• Various awards and certificates in cultural arts, literary
+and drama
+
+                </h3>
+              </div>
+          
+          </div>
+        </div>
+
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#roles'"
+        />
+      </section>
+  
+
+
+
+
+
+
+
+      <section id="roles">
+        <p class="section__text__p1">Showcasing my leardership qualities</p>
+        <h3 class="title">Roles Of Responsibilities</h3>
+
+        <div class="section-container">
+          <div class="section__pic-container">
+
+            <img
+              src="./assets/roles.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+         
+            
+          <div class="details-container">
+            
+            
+                <h3>
+                  • Google Development Students Club - AIML core team
+                  member (2022-2023)<br><br>
+                  
+                  • Served as Resource Person at NRSC(ISRO)<br><br>
+                  • CVR Writer’s Space Head(2022-2023)<br>
+                  • Writer's Space Magzine Editorial Board(2022-2023)<br><br>
+                  • Red Ribbon Club – Vice Chair(2022-2023)<br><br>
+                  • CVR INNOVATION CELL member<br><br>
+                  • Ek Bharat Shreshth Bharat – Secretary(2022-2023)
+            </h3>
+              </div>
+          
+          </div>
+        </div>
+
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+
+
+
+
+
+
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+
+            <p><a href="mailto:examplemail@gmail.com">snehalakshya04@gmail.com</a></p>
+
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/sneha-lakshya-798b561b0/">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <footer>
+
+
+        <p>Copyright &#169; 2023 Sneha. All Rights Reserved.</p>
+      </footer>
+
+      <script src="script.js"></script>
+    </body>
+  </html>
